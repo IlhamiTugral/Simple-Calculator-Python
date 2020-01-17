@@ -10,4 +10,4 @@ Python ile yazılmış basit hesap makinası
 
 ## Nasıl Kullanılır?
 
-`python3 main.py` komutu ile çalıştırabilirsiniz.
+`python3 app.py` komutu ile çalıştırabilirsiniz.
