@@ -29,7 +29,8 @@ while status:
             num1 = float(input("Birinci Sayı: "))
             num2 = float(input("İkinci Sayı: "))
         else:
-            print("Geçersiz işlem türü")
+            print("Hesap Makinasından çıkılıyor...")
+            status = False
         
         if operation == 1:
             print(num1, " + ", num2, " = ", (num1+num2))
@@ -39,9 +40,6 @@ while status:
             print(num1, " * ", num2, " = ", (num1*num2))
         elif operation == 4:
             print(num1, " / ", num2, " = ", (num1/num2))
-        elif operation == 5:
-            print(num1, " % ", num2, " = ", (num1%num2))
         else:
-            print("Hesap Makinasından çıkılıyor...")
-            status = False
+            print(num1, " % ", num2, " = ", (num1%num2))
     print("\n")
