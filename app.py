@@ -17,7 +17,7 @@ print("| 3-) Çarpma İşlemi       |")
 print("| 4-) Bölme İşlemi        |")
 print("| 5-) Kalan Hesaplama     |")
 print("|                         |")
-print("| 0-) Cikis               |")
+print("| 0-) Çıkış               |")
 print("+-------------------------+")
 print("\n")
 
